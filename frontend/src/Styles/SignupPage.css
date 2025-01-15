@@ -1,0 +1,25 @@
+.signup-page {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .signup-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .signup-page form label {
+    font-weight: bold;
+  }
+  
+  .signup-page form input {
+    margin-bottom: 15px;
+  }
+  
+  .signup-page form button {
+    margin-top: 15px;
+  }
+  

@@ -1,0 +1,23 @@
+.product-detail-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .product-detail-page img {
+    max-width: 300px;
+    border-radius: 5px;
+  }
+  
+  .product-detail-page h1 {
+    margin: 20px 0 10px;
+  }
+  
+  .product-detail-page button {
+    margin-top: 15px;
+  }
+  

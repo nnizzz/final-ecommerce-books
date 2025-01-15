@@ -1,0 +1,27 @@
+.cart-page {
+    padding: 20px;
+  }
+  
+  .cart-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-page li {
+    margin: 10px 0;
+  }
+  
+  .cart-page button {
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-page button:hover {
+    background-color: #218838;
+  }
+  

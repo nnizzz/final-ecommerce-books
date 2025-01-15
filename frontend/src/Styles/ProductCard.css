@@ -1,0 +1,60 @@
+/* Parent container for books */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers the books horizontally */
+  align-items: center; /* Centers the books vertically */
+  padding: 20px;
+  gap: 20px; /* Adds space between the books */
+  min-height: 100vh; /* Ensures the container takes the full viewport height */
+}
+
+/* Individual book card */
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 150px; /* Adjusted size for smaller display */
+  margin: 10px;
+  background-color: #f9f9f9; /* Optional background for card */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
+}
+
+/* Book image */
+.product-image {
+  width: 150px; /* Adjusted size for smaller display */
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover; /* Ensures the image maintains aspect ratio */
+}
+
+/* Book name */
+.product-name {
+  font-size: 16px; /* Adjusted size */
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+/* Author, category, price */
+.product-author, 
+.product-category, 
+.product-price {
+  font-size: 12px; /* Adjusted size */
+  margin: 4px 0;
+}
+
+/* Buy now button */
+.buy-now {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.buy-now:hover {
+  background-color: #0056b3;
+}

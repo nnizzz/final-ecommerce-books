@@ -1,0 +1,73 @@
+/* Parent container for all books */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; /* Aligns books to the top */
+  gap: 20px;
+  padding: 80px 20px; /* Add top padding if header exists */
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  overflow-y: auto;
+  box-sizing: border-box; /* Ensures padding does not affect width/height */
+  
+    padding-top: 700px; /* Adjust this value based on your header height */
+  
+  
+}
+
+/* Individual book card */
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Book image */
+.product-image {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Book details */
+.product-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.product-author,
+.product-price {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+/* Buy now button */
+.buy-now {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.buy-now:hover {
+  background-color: #0056b3;
+}
+
+/* Header and Navbar */
+header, .navbar {
+  z-index: 100;
+  position: sticky;
+  top: 0; /* Keep navbar visible while scrolling */
+  background-color: white; /* Ensure visibility */
+}
